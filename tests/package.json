@@ -1,0 +1,19 @@
+{
+  "name": "task-tracker-api-tests",
+  "version": "1.0.0",
+  "description": "Jest API integration tests for Task Tracker REST API",
+  "scripts": {
+    "test": "jest --runInBand --forceExit",
+    "test:verbose": "jest --runInBand --forceExit --verbose"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 10000
+  }
+}
